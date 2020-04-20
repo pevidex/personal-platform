@@ -1,0 +1,272 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Resume - Start Bootstrap Theme</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css'%}" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
+  <link href="{% static 'vendor/fontawesome-free/css/all.min.css'%}" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/resume.min.css'%}" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+    <a class="navbar-brand js-scroll-trigger" href="#page-top">
+      <span class="d-block d-lg-none">Ricardo Xavier</span>
+      <span class="d-none d-lg-block">
+        <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src= "{% static "img/profile.jpg" %}" alt="">
+      </span>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#interests">Interests</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container-fluid p-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
+      <div class="w-100">
+        <h1 class="mb-0">Ricardo
+          <span class="text-primary">Xavier</span>
+        </h1>
+        <div class="subheading mb-5">Lisboa · Portugal ·
+          <a href="mailto:ricardojosexavier@hotmail.com">ricardojosexavier@hotmail.com</a>
+        </div>
+        <p class="lead mb-5">Hi, I'm Ricardo and I'm 24 years old. I recently finished my Masters in Information Systems and Computer Engineering in 2019 
+          in the Instituto Superior Técnico in Lisboa. 
+          My two areas of specialization are Distributed Systems and Software Engineering. I like to learn and explore all the perspectives of 
+          developing software, but i have preference for developing mobile apps and backend. I'm currently working as a developer and researcher in INESC-ID.</p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/ricardo-xavier-4188b212a/">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="https://github.com/pevidex ">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://www.instagram.com/pugxavi/">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex justify-content-center" id="experience">
+      <div class="w-100">
+        <h2 class="mb-5">Experience</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Backend Developer</h3>
+            <div class="subheading mb-3">Inesc-id</div>
+            <p>I started as an Android developer for <a href="https://www.woorti.com/"> Woorti</a>. This application is part of an international project called <a href="https://motivproject.eu/">Motiv</a>.
+              The purpose is to collect data about the mobility patterns of citizens across many cities in Europe. 
+              After a couple of months, I was included in the backend team. 
+              During this time I was responsible for maintaining the server and writing code for the Woorti backoffice and backend.
+            </p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">May 2019 - Present</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Fullstack-Developer</h3>
+            <div class="subheading mb-3">GCE</div>
+            <p>During the year of 2018, I was part of an extracurricular group of students called <a href="http://web.archive.org/web/20180831160757/https://www.gce-neiist.org/">GCE</a>
+              (Grupo Contacto com Empresas).
+              I was particularly involved in the development of <a href="http://web.archive.org/web/20180831160757/https://www.gce-neiist.org/">GCE Thesis</a>, a platform where students could consult and search theses 
+             based on specialization areas.
+             As a GCE member, I was also responsible for the organization of
+              <a href="https://codingcompetitions.withgoogle.com/hashcode/">Google Hashcode</a>.</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2017 - May 2018</span>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="education">
+      <div class="w-100">
+        <h2 class="mb-5">Education</h2>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          <div class="resume-content">
+            <h3 class="mb-0">Instituto Superior Técnico, Lisboa</h3>
+            <div class="subheading mb-3">Distributed Systems Engineering, M.Sc.</div>
+            <p>ECTS: 15</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2017 - December 2019</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Instituto Superior Técnico, Lisboa</h3>
+            <div class="subheading mb-3">Bachelor of Computer Information Systems</div>
+            <p>ECTS: 15</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2014 - July 2017</span>
+          </div>
+        </div>
+
+        <div class="resume-item d-flex flex-column flex-md-row justify-content-between">
+          <div class="resume-content">
+            <h3 class="mb-0">Liceu Maria Amália Vaz de Carvalho, Lisboa</h3>
+            <div class="subheading mb-3">Science and Technology</div>
+            <p>ECTS: 16</p>
+          </div>
+          <div class="resume-date text-md-right">
+            <span class="text-primary">September 2011 - July 2014</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
+      <div class="w-100">
+        <h2 class="mb-5">Skills</h2>
+
+        <div class="subheading mb-3">Programming Languages &amp; Tools</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fab fa-js-square"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-python"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-java"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-android"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-node-js"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-aws"></i>
+          </li>
+        </ul>
+
+        <div class="subheading mb-3">Workflow</div>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-check"></i>
+            Agile Development &amp; Scrum</li>
+        </ul>
+      </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="interests">
+      <div class="w-100">
+        <h2 class="mb-5">Interests</h2>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <i class="fas fa-plane-departure"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-campground"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-dumbbell"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fab fa-spotify"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-film"></i>
+          </li>
+          <li class="list-inline-item">
+            <i class="fas fa-user-friends"></i>
+          </li>
+        </ul>
+        <p>Every time I can, I tend to do outdoor activities. I love traveling and explore new places. I also like to feel healthy so I enjoy exercising myself and practicing  sports like skateboarding. 
+          Music and podcasts follow me throughout the day. Watching movies is also a key element in my life since they have taught me so much. 
+          Spending time with friends and family is something I really value and every time I can it tends to be my priority.</p>
+         </div>
+    </section>
+
+    <hr class="m-0">
+
+    <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="awards">
+      <div class="w-100">
+        <h2 class="mb-5">Awards &amp; Certifications</h2>
+        <ul class="fa-ul mb-0">
+          <li>
+            <i class="fa-li fa fa-trophy text-warning"></i>
+            IST Academic Merit 2014/2015</li>
+        </ul>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="{% static 'vendor/jquery/jquery.min.js'%}"></script>
+  <script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js'%}"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="{% static 'vendor/jquery-easing/jquery.easing.min.js'%}"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="{% static 'js/resume.min.js'%}"></script>
+
+</body>
+
+</html>
